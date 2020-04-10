@@ -1,0 +1,209 @@
+body{
+
+    display: grid;
+    grid-template-columns: 400px auto 150px ;
+    grid-template-rows: 85px 420px 230px;
+
+    grid-template-areas: "head head head"
+                          " main sidebar article"
+                          "footer footer section";
+    
+}
+
+header{
+
+    background-color:darkslategrey;
+    
+    padding: 30px;
+    text-align: center;
+    grid-area: head;
+    
+
+
+}
+
+aside{
+    margin-left: 10px;
+    background-color:slategray;
+    text-align: center;
+    grid-area: sidebar;
+    margin:0;
+
+
+}
+
+aside h4{ font-size: x-large;
+    background-color: tan;
+    color: darkcyan;
+    font-style: italic;}
+
+aside h5{ color : darkblue;
+text-align: center;
+font-size: large;
+}
+
+aside p{
+    text-align: center;
+    color: black;
+    font-size: medium;
+
+}
+
+aside img{
+    vertical-align: auto;
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+}
+
+
+main{
+    
+    background-color: slategrey;
+}
+
+
+main h4{
+   
+    color: rgb(214, 161, 14);;
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+
+
+}
+
+
+
+main  h3 {
+    
+    color:whitesmoke;
+    font-family: cursive;
+    margin-left: 10px;
+    
+    grid-area: main;
+
+}
+
+main p{
+    color:black;
+    margin-left: 10px;
+}
+
+
+ main img{
+    border-radius: 50%;
+   height: 140px;
+    vertical-align: middle;
+    padding-top: 20px;
+    margin-left: 87px;
+    margin-bottom: 10px;
+   
+    
+    
+   
+}
+
+article{
+    background-color: slategray;
+    text-align: center;
+    grid-area: article;
+    font-family: cursive;
+    font-size: x-large;
+
+
+}
+article blockquote{
+    background-color: tan;
+    margin: 10px;
+    color: black;
+}
+
+section{
+    background-color: slategray ;
+   
+}
+
+section h3 {
+    background-color: tan;
+    text-align: center;
+    grid-area: section;
+    color: black;
+    font-family: sans-serif;
+    width :150px;
+
+    
+   
+
+
+}
+
+section a{ 
+    font-size: x-large;
+    margin:0;
+    padding:0;
+    text-align: center;
+    margin-left :10px
+
+
+}
+
+footer{
+    background-color: slategray;
+    text-align: left;
+    grid-area: footer;
+}
+
+footer h3{
+    color:whitesmoke;
+    font-family: cursive;
+    margin-left: 10px;
+}
+footer p{
+    color:black;
+    margin-left:10px;
+
+}
+ 
+#contact{
+    color: blue;
+    background-color: silver;
+    font-size: large;
+    font-style: normal;
+    
+   
+
+}
+
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: centre;
+    align-items: center;
+    height: 100%;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#search-bar{
+    padding-left: 660px;
+}
+
+
+
+.nav-list-items{
+   margin:0 30px;
+    
+
+}
+
+.nav-list-items a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+

@@ -1,0 +1,113 @@
+   
+
+
+body{
+    background-image: url(leaf.jpg);
+    background-size:cover;
+
+}
+
+
+
+#Main-Headings{
+    
+
+    text-align: center;
+}
+
+
+#form
+{
+    text-align: center;
+}
+
+#fName{
+    text-align: start;
+}
+
+#firstName
+{
+    width: 100%;
+    padding: 12px 12px;
+    margin:  8px 0px;
+    border:none;
+    border-bottom: 2px solid black;
+    background:transparent;
+    border-color: black;
+   /* background-color: azure;*/
+}    
+
+      
+
+#lName{
+    
+    text-align: start;
+}
+
+#LastName{
+    width: 100%;
+    padding: 12px 12px;
+    margin:  8px 0px;
+     border: none;
+     background:transparent;
+     border-bottom: 2px solid;
+    /*background-color: azure;*/
+}
+
+#password{
+    text-align: start;
+
+}
+
+#pass{
+    width: 100%;
+    padding: 12px 12px;
+    padding-bottom:2px;
+    margin:  8px 0px;
+    border:none;
+     border-bottom: 2px solid black;
+     background:transparent;
+}
+
+#forgot{
+    text-align: end;
+}
+
+#remember{
+    text-align: start;
+}
+#box-model-1{
+     margin-left: 430px;
+     /*border: 2px solid white;*/
+     padding-top: 50px;
+     padding-right: 50px;
+     padding-left: 30px;
+     width: 400px;
+     height: 260px;
+     
+    /* background-color: azure;*/
+}
+
+#Sign-Up{
+
+    display: inline-block;
+    border: none;
+    height: 30px;
+    width: 100%;
+    padding: 16px, 32px;
+    background-color: darkgreen;
+    text-align:centre;
+    text-decoration-color: white;
+
+
+}
+#submit a{
+    color: white;
+    font-size: 20px;
+}
+
+#Already{
+    margin-top: 10px;
+    padding:  16px, 32px;
+    text-align: center;
+}
